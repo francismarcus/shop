@@ -1,0 +1,45 @@
+{
+	"name": "new",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "bunx biome lint --write ./app ./components ./lib",
+		"format": "bunx biome format --write ./app ./components ./lib "
+	},
+	"dependencies": {
+		"@neondatabase/serverless": "^0.10.3",
+		"@radix-ui/react-dialog": "^1.1.2",
+		"@radix-ui/react-slot": "^1.1.0",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"dotenv": "^16.4.5",
+		"drizzle-orm": "^0.36.0",
+		"drizzle-zod": "^0.5.1",
+		"lucide-react": "^0.453.0",
+		"nanoid": "^5.0.8",
+		"next": "15.0.2-canary.6",
+		"next-safe-action": "^7.9.9",
+		"react": "19.0.0-rc-1631855f-20241023",
+		"react-dom": "19.0.0-rc-1631855f-20241023",
+		"tailwind-merge": "^2.5.4",
+		"tailwindcss-animate": "^1.0.7",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^20",
+		"@types/react": "npm:types-react@19.0.0-rc.1",
+		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+		"drizzle-kit": "^0.27.1",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5"
+	},
+	"overrides": {
+		"@types/react": "npm:types-react@19.0.0-rc.1",
+		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+	}
+}
